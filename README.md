@@ -1,12 +1,17 @@
 **This repository contains my solution to the problem for fault detection:**
 
 *PROBLEM OVERVIEW:*
+
   47 features
+  
   target label : Class (0,1)
+  
 *OBJECTIVE:*
+
   to train a model using TRAIN.csv and generate predictions for TEST.csv in the given format
 
 *APPROACH:*
+
   1.data preparation
     seperated features and target
     removed id column from test dataset
@@ -27,6 +32,7 @@
 
 
 *PROJECT STRUCTURE:*
+
 ```
 fault_detection/
 │
@@ -42,6 +48,7 @@ fault_detection/
 └── README.md
 ```
 *HOW TO RUN:*
+
   Install dependencies:
   
     pip install -r requirements.txt
